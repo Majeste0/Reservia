@@ -1,0 +1,12 @@
+*{
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+#menu {
+	display:flex;
+	justify-content: space-between;
+	border: solid;
+	width: 25%;
+	float: right;
+}
