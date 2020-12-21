@@ -4,9 +4,40 @@
 }
 
 #menu {
-	display:flex;
+	display: flex;
 	justify-content: space-between;
 	border: solid;
 	width: 25%;
 	float: right;
+}
+
+.center,.populaires,.footer {
+	background-color: #F2F2F2
+}
+.center {
+	width: 1000px;
+	height: 800px;
+}
+.contenant {
+	display: flex;
+	flex-direction: row;
+	border: thick double red;
+	height: 800px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.img_marseille {
+ width: 50px;
+}
+.cannebiere1 {
+	border: solid;
+	border-radius: 10px;
+	height: 400px;
+	width: 300px;
+}
+.cannebiere4 {
+	border: solid;
+	border-radius: 10px;
+	height: 400px;
 }
