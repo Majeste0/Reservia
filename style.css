@@ -66,8 +66,11 @@ border-radius: 10px 10px 0 0;
 	margin-left: 80px;
 }
 
+.afficher_plus {
+	padding-top: -10px;
+}
 .titre_marseille {
-	padding-top: 20px;
+	margin-top: 20px;
 }
 
 /* -------------------------------------- */
@@ -89,7 +92,7 @@ border-radius: 10px 10px 0 0;
 
 
 .img_populaires {
-height: 96%;
+height: 200px;
 width: 40%;
 object-fit: cover;
 border-radius: 10px 10px 0 0;
@@ -103,11 +106,12 @@ width: 480px;
 height: 180px;
 background-color: #FFFFFF;
 box-shadow: 0px 2px 8px 0px;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 .titre_populaires {
 	margin-left: 80px;
-	padding-top: 20px;
+}
+
+.fa {
+	color:#0065FC;
 }
