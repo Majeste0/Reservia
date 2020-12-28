@@ -1,117 +1,147 @@
-*{
-	list-style: none;
-	font-family: 'Raleway', sans-serif;
-	line-height: 10px;
-}
+	*{
+		list-style: none;
+		font-family: 'Raleway', sans-serif;
+		line-height: 10px;
+	}
+	ul {
+		padding-left: 0px;
+	}
+	#menu {
+		display: flex;
+		justify-content: space-between;
+		border: solid;
+		width: 25%;
+		float: right;
+	}
 
-#menu {
+	.center,.populaires,.footer,.aside {
+		background-color: #F2F2F2
+	}
+
+	.center_populaires {
+		display: flex;
+
+	}
+	.center {
+		width: 55%;
+		height: 700px;
+		border-radius: 20px;
+		
+	}
+	.contenant {
+		display: flex;
+		flex-direction: row;
+		height: 600px;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		
+	}
+
+	.img_marseille {
+	height: 60%;
+	width: 96%;
+	object-fit: cover;
+	margin-left: 2%;
+	margin-top: 2%;
+	border-radius: 10px 10px 0 0;
+	}
+	.cannebiere1, .cannebiere2, .cannebiere3, .cannebiere4, .cannebiere5, .cannebiere6 {
+		border-radius: 10px;
+		width: 300px;
+		height: 250px;
+		background-color: #FFFFFF;
+		box-shadow: 0px 2px 8px 0px;
+	}
+
+	.titre_image {
+		margin-left: 15px;
+		font-size: 1em;
+	}
+
+	.soustitre_image {
+		margin-left: 15px;
+	}
+
+	.afficher_plus, .titre_marseille, .titre_populaires {
+		margin-left: 80px;
+	}
+
+	.afficher_plus {
+		padding-top: -10px;
+	}
+	.titre_marseille {
+		
+	}
+
+	/* -------------------------------------- */
+
+	.aside {
+		border-radius: 20px;		
+		height: 700px;
+			width: 45%;
+	}
+	.populaires {		
+		height: 600px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 0;
+		margin-bottom: 0;
+		justify-content: space-around;
+
+	}
+
+	.populaire1, .populaire2, .populaire3 {
+		display: flex;		
+		border-radius: 10px;
+		background-color: #FFFFFF;
+		box-shadow: 0px 2px 8px 0px;
+
+	}
+
+
+	.img_populaires {
+		height: 180px;
+		width: 200px;
+		object-fit: cover;
+		border-radius: 10px 0px 0px 10px;
+		margin-left: 2%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	.
+
+	.titre_populaires {
+	    margin-bottom: 0px;
+	    margin-top: 0px;
+
+	}
+
+	.texte_populaire { 
+
+	margin-left: 10px;
 	display: flex;
-	justify-content: space-between;
-	border: solid;
-	width: 25%;
-	float: right;
-}
-
-.center,.populaires,.footer,.aside {
-	background-color: #F2F2F2
-}
-
-.center_populaires {
-	display: flex;
-	border : thick double green;
-	justify-content: space-between;
-
-}
-.center {
-	width: 1200px;
-	height: 700px;
-	border-radius: 20px;
-	border: thick double orange;
-}
-.contenant {
-	display: flex;
-	flex-direction: row;
-	height: 600px;
-	justify-content: space-around;
 	flex-wrap: wrap;
-	border: thick double red;
-}
-
-.img_marseille {
-height: 60%;
-width: 96%;
-object-fit: cover;
-margin-left: 6px; /*Centrer l'image car 96% width */
-margin-top: 5px;
-border-radius: 10px 10px 0 0;
-}
-.cannebiere1, .cannebiere2, .cannebiere3, .cannebiere4, .cannebiere5, .cannebiere6 {
-	border-radius: 10px;
-	width: 300px;
-	height: 250px;
-	background-color: #FFFFFF;
-	box-shadow: 0px 2px 8px 0px;
-}
-
-.titre_image {
-	margin-left: 15px;
-	font-size: 1em;
-}
-
-.soustitre_image {
-	margin-left: 15px;
-}
-
-.afficher_plus, .titre_marseille {
-	margin-left: 80px;
-}
-
-.afficher_plus {
-	padding-top: -10px;
-}
-.titre_marseille {
-	margin-top: 20px;
-}
-
-/* -------------------------------------- */
-.aside {
-	border: thick double purple;
-	height: 700px;
-	border-radius: 20px;
-
-}
-
-.populaires {
-	display: flex;
-	border: thick double blue;
-	flex-direction: column;
-	height: 600px;
-	width: 500px;
 	justify-content: space-around;
-}
+
+	 }
+
+	/* font awesome info */
+
+	.fas {
+		color:#0065FC;
+	}
+
+	.fa-star {
+		color: #0065FC;
+	}
+	.fa-star-gris {
+		;
+	}
+
+	.img_activites {
+		max-height: 100px;
+		max-width: 100px;
+	}
 
 
-.img_populaires {
-height: 200px;
-width: 40%;
-object-fit: cover;
-border-radius: 10px 10px 0 0;
-border: thick double red;
-}
-
-.populaire1, .populaire2, .populaire3 {
-border: solid;
-border-radius: 10px;
-width: 480px;
-height: 180px;
-background-color: #FFFFFF;
-box-shadow: 0px 2px 8px 0px;
-}
-
-.titre_populaires {
-	margin-left: 80px;
-}
-
-.fa {
-	color:#0065FC;
-}
