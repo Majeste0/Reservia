@@ -1,25 +1,148 @@
 	*{
 		list-style: none;
 		font-family: 'Raleway', sans-serif;
-		line-height: 10px;
+		line-height: 1;
 	}
 	ul {
 		padding-left: 0px;
+		display: flex;
 	}
+
+	/* header */
+	h1 {
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+
+	.sous_h1 {
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+
+
+
+
+	/* Menu */
+
+
 	#menu {
 		display: flex;
 		justify-content: space-between;
-		border: solid;
 		width: 25%;
 		float: right;
 	}
+	.menu1, .menu2, .menu3 {
+		text-decoration: none;
+		padding: 20px;
+		border-top: 2px transparent solid;
+	}
+	.menu3 {
+		color: #0065FC;
+		font-weight: bold;
+	}
+
+	.menu1:hover, .menu2:hover, .menu3:hover {
+		cursor: pointer;
+	}
+	.menu1:hover, .menu2:hover {
+		border-top: solid #0065FC 2px;
+		color: #0065FC;
+	}
+	.menu3:hover {
+		text-decoration: underline;
+	}
+
+	/* Rechercher */
+	.search {
+		display: flex;
+		align-items: center;
+	}
+	.fa-map-marker-alt, .search_bar, .search_bar_text {
+		display: flex;
+	}
+
+	.fa-map-marker-alt {
+		padding: 10px;
+		border: solid transparent;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		background-color: #F2F2F2;
+		color: black !important;
+	}
+
+	.search_bar {
+		padding: 10px;
+	}
+
+	.search_bar_text {
+		border: solid transparent ;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		color: white;
+		background-color: #0065FC;
+		padding: 10px;
+
+	}
+
+	/* Infos */
+
+	.info {
+		padding-bottom: 16px;
+	}
+
+
+
+
+	/* Les filtres */ 
+
+
+	.filtres { 
+		display: flex;
+		align-items: center;
+	}
+
+	.bouton {
+		border-radius: 50px;
+		border: 2px solid #D9D9D9;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		margin-left: 20px;
+		align-items: center;
+	}
+	.bouton:hover {
+		background-color: #DEEBFF;
+		cursor: pointer;
+	}
+	.bouton:focus {
+		background-color: #DEEBFF;
+	}
+	.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+		background-color: #DEEBFF;
+		border-radius: 100%;
+		border: 1px solid #DEEBFF;
+		padding: 10px;
+		margin-right: 5px;
+	}
+
+	.text_bouton {
+		margin-right: 10px;
+		font-weight: bold;
+	}
+
+
+
+
+	/*Centre */
+
 
 	.center,.populaires,.footer,.aside {
-		background-color: #F2F2F2
+		background-color: #F2F2F2;
 	}
 
 	.center_populaires {
 		display: flex;
+		justify-content: space-around;
 
 	}
 	.center {
@@ -38,12 +161,12 @@
 	}
 
 	.img_marseille {
-	height: 60%;
-	width: 96%;
-	object-fit: cover;
-	margin-left: 2%;
-	margin-top: 2%;
-	border-radius: 10px 10px 0 0;
+		height: 60%;
+		width: 96%;
+		object-fit: cover;
+		margin-left: 2%;
+		margin-top: 2%;
+		border-radius: 10px 10px 0 0;
 	}
 	.cannebiere1, .cannebiere2, .cannebiere3, .cannebiere4, .cannebiere5, .cannebiere6 {
 		border-radius: 10px;
@@ -52,14 +175,11 @@
 		background-color: #FFFFFF;
 		box-shadow: 0px 2px 8px 0px;
 	}
-
-	.titre_image {
+	.fa-star, .titre_image, .soustitre_image {
 		margin-left: 15px;
-		font-size: 1em;
 	}
-
-	.soustitre_image {
-		margin-left: 15px;
+	.titre_image {
+		font-size: 1em;
 	}
 
 	.afficher_plus, .titre_marseille, .titre_populaires {
@@ -78,7 +198,7 @@
 	.aside {
 		border-radius: 20px;		
 		height: 700px;
-			width: 45%;
+		width: 45%;
 	}
 	.populaires {		
 		height: 600px;
@@ -112,19 +232,19 @@
 	.
 
 	.titre_populaires {
-	    margin-bottom: 0px;
-	    margin-top: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
 
 	}
 
 	.texte_populaire { 
 
-	margin-left: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+		margin-left: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
 
-	 }
+	}
 
 	/* font awesome info */
 
@@ -143,5 +263,3 @@
 		max-height: 100px;
 		max-width: 100px;
 	}
-
-
