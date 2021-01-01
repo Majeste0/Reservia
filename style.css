@@ -142,13 +142,15 @@
 
 	.center_populaires {
 		display: flex;
-		justify-content: space-around;
 
 	}
 	.center {
-		width: 55%;
-		height: 700px;
+		width: 60%;
 		border-radius: 20px;
+		margin-top:;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 2%;
 		
 	}
 	.contenant {
@@ -170,13 +172,14 @@
 	}
 	.cannebiere1, .cannebiere2, .cannebiere3, .cannebiere4, .cannebiere5, .cannebiere6 {
 		border-radius: 10px;
-		width: 300px;
-		height: 250px;
+		height: 40%;
+		width: 30%;
 		background-color: #FFFFFF;
 		box-shadow: 0px 2px 8px 0px;
 	}
 	.fa-star, .titre_image, .soustitre_image {
 		margin-left: 15px;
+		line-height: 0.5 !important;
 	}
 	.titre_image {
 		font-size: 1em;
@@ -187,18 +190,23 @@
 	}
 
 	.afficher_plus {
-		padding-top: -10px;
+		margin-top: -35px;
+		
 	}
 	.titre_marseille {
 		
 	}
 
+
 	/* -------------------------------------- */
 
 	.aside {
 		border-radius: 20px;		
-		height: 700px;
-		width: 45%;
+		width: 40%;
+		margin-top:;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 2%;
 	}
 	.populaires {		
 		height: 600px;
@@ -207,42 +215,37 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		justify-content: space-around;
-
+		align-items: center;
+		margin-top: 16px;
 	}
 
 	.populaire1, .populaire2, .populaire3 {
-		display: flex;		
 		border-radius: 10px;
 		background-color: #FFFFFF;
 		box-shadow: 0px 2px 8px 0px;
-
+		height: 30%;
+		width: 88%;
 	}
-
 
 	.img_populaires {
-		height: 180px;
-		width: 200px;
+		height: 94%;
+		width: 30%;
 		object-fit: cover;
 		border-radius: 10px 0px 0px 10px;
-		margin-left: 2%;
-		margin-top: 2%;
-		margin-bottom: 2%;
+		margin-top: 1%;
+		margin-left: 1%;
 	}
-
-	.
 
 	.titre_populaires {
 		margin-bottom: 0px;
-		margin-top: 0px;
+		margin-top: 40px;
+		z-index: 1000;
 
 	}
 
 	.texte_populaire { 
-
 		margin-left: 10px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
+		z-index: 1000;
 
 	}
 
@@ -255,11 +258,69 @@
 	.fa-star {
 		color: #0065FC;
 	}
-	.fa-star-gris {
-		;
+	.fa-star:nth-child(5n-1) {
+		margin-left: 15px;
 	}
 
-	.img_activites {
-		max-height: 100px;
-		max-width: 100px;
+
+	.fa-star--true, .fa-star--false {
+		margin-left: 0px;
 	}
+	.fa-star--true {
+		color: #0065FC;
+	}
+	.fa-star--false {
+		color: grey;
+	}
+
+
+
+
+
+
+	/* Activités */
+
+	.titre_article {
+		margin-left: 2%;
+	}
+	.activites {
+		height: 500px;
+		width: 100%;
+		border: solid thick red;
+		display: flex;
+		flex-direction: column;
+	}
+	.img_activites2, .img_activites3, .img_activites5, .img_activites6 {
+		height: 100px;
+		width: 100px;
+		border: solid orange;
+	}
+
+	.img_activites1, .img_activites4 {
+		border: solid;
+		width: 300px;
+		height: 350px;
+		margin-left: 1%;
+	}
+
+	.activites1, .activites4 {
+		border-radius: 10px;
+		height: 80%;
+		width: 30%;
+		background-color: #FFFFFF;
+		box-shadow: 0px 2px 8px 0px;
+		margin-left: 2%;
+   		margin-right: 2%;
+    	margin-bottom: 2%;
+	}
+	.activites2, .activites3, .activites5, .activites6 {
+		border-radius: 10px;
+		height: 40%;
+		width: 30%;
+		background-color: #FFFFFF;
+		box-shadow: 0px 2px 8px 0px;
+		margin-left: 2%;
+    	margin-right: 2%;
+    	margin-bottom: 2%;
+	}
+
