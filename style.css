@@ -30,6 +30,7 @@
 		justify-content: space-between;
 		width: 25%;
 		float: right;
+
 	}
 	.menu1, .menu2, .menu3 {
 		text-decoration: none;
@@ -133,24 +134,26 @@
 
 
 
-	/*Centre */
+	/* Centre */
 
 
 	.center,.populaires,.footer,.aside {
 		background-color: #F2F2F2;
+		border: solid bisque;
 	}
 
 	.center_populaires {
 		display: flex;
+		border: solid brown;
 
 	}
 	.center {
 		width: 60%;
 		border-radius: 20px;
-		margin-top:;
 		margin-left: 2%;
 		margin-right: 2%;
 		margin-bottom: 2%;
+		border: solid #8A2BE2;
 		
 	}
 	.contenant {
@@ -159,6 +162,7 @@
 		height: 600px;
 		justify-content: space-around;
 		flex-wrap: wrap;
+		border: solid #D2691E;
 		
 	}
 
@@ -169,6 +173,7 @@
 		margin-left: 2%;
 		margin-top: 2%;
 		border-radius: 10px 10px 0 0;
+		border: solid crimson;
 	}
 	.cannebiere1, .cannebiere2, .cannebiere3, .cannebiere4, .cannebiere5, .cannebiere6 {
 		border-radius: 10px;
@@ -176,6 +181,7 @@
 		width: 30%;
 		background-color: #FFFFFF;
 		box-shadow: 0px 2px 8px 0px;
+		border: solid darkblue;
 	}
 	.fa-star, .titre_image, .soustitre_image {
 		margin-left: 15px;
@@ -203,10 +209,10 @@
 	.aside {
 		border-radius: 20px;		
 		width: 40%;
-		margin-top:;
 		margin-left: 2%;
 		margin-right: 2%;
 		margin-bottom: 2%;
+		border: solid darkmagenta;
 	}
 	.populaires {		
 		height: 600px;
@@ -217,6 +223,8 @@
 		justify-content: space-around;
 		align-items: center;
 		margin-top: 16px;
+		border: solid darkturquoise;
+
 	}
 
 	.populaire1, .populaire2, .populaire3 {
@@ -225,6 +233,7 @@
 		box-shadow: 0px 2px 8px 0px;
 		height: 30%;
 		width: 88%;
+		border: solid forestgreen;
 	}
 
 	.img_populaires {
@@ -234,18 +243,21 @@
 		border-radius: 10px 0px 0px 10px;
 		margin-top: 1%;
 		margin-left: 1%;
+		border: solid limegreen;
 	}
 
 	.titre_populaires {
 		margin-bottom: 0px;
 		margin-top: 40px;
 		z-index: 1000;
+		border: red solid;
 
 	}
 
 	.texte_populaire { 
 		margin-left: 10px;
 		z-index: 1000;
+		border: yellow solid;
 
 	}
 
@@ -283,44 +295,106 @@
 	.titre_article {
 		margin-left: 2%;
 	}
+	.titre_activites {
+		margin-left: 5%;
+	}
 	.activites {
-		height: 500px;
+		height: 580px;
 		width: 100%;
-		border: solid thick red;
+	}
+	.bloc_activites {
 		display: flex;
 		flex-direction: column;
+		flex-wrap: wrap;
+		max-height: 544px;
+		margin-left: 2%;
 	}
-	.img_activites2, .img_activites3, .img_activites5, .img_activites6 {
-		height: 100px;
-		width: 100px;
-		border: solid orange;
+
+	.img_activites1, .img_activites2, .img_activites3, .img_activites4, .img_activites5, .img_activites6 {
+		object-fit: cover;	
+		width: 100%;
+		border-radius: 10px 10px 0px 0px;
 	}
 
 	.img_activites1, .img_activites4 {
-		border: solid;
-		width: 300px;
-		height: 350px;
-		margin-left: 1%;
+		height: 430px;		
+	}
+
+	.img_activites2 {
+		height: 180px;
+	}
+	.img_activites3 {
+		height: 100px;
+	}
+	.img_activites5, .img_activites6 {
+		height: 150px;
+	}
+
+	.activites1, .activites2, .activites3, .activites4, .activites5, .activites6 {
+		border-radius: 10px;
+		width: 20%;
+		background-color: #FFFFFF;
+		box-shadow: 0px 2px 8px 0px;
 	}
 
 	.activites1, .activites4 {
-		border-radius: 10px;
-		height: 80%;
-		width: 30%;
-		background-color: #FFFFFF;
-		box-shadow: 0px 2px 8px 0px;
-		margin-left: 2%;
-   		margin-right: 2%;
-    	margin-bottom: 2%;
+		height: 90%;
+		display: flex;
+		flex-flow: column wrap;
 	}
-	.activites2, .activites3, .activites5, .activites6 {
-		border-radius: 10px;
+	.activites2 {	
 		height: 40%;
-		width: 30%;
-		background-color: #FFFFFF;
-		box-shadow: 0px 2px 8px 0px;
-		margin-left: 2%;
-    	margin-right: 2%;
-    	margin-bottom: 2%;
+		display: flex;
+		flex-flow: column wrap;
+		margin-bottom: 66px;
 	}
+	.activites5 {
+		margin-bottom: 58px;
+	}
+	.activites3{
+		height: 40%;
+		display: flex;
+		flex-flow: column wrap;
+	}
+
+	.activites5, .activites6 {
+		height: 50%;
+		display: flex;
+		flex-flow: column wrap;
+	}
+
+
+
+
+	/* Footer */ 
+
+	.footer {
+		display: flex;
+		background-color: #F2F2F2;
+		height: 200px;
+	}
+
+	.apropos_footer {
+
+		margin-left: 2%;
+		margin-right: 20%;
+		margin-top: 2%;
+	}
+
+	.hebergements_footer {	
+
+		margin-right: 20%;
+		margin-top: 2%;
+	}
+
+	.assistance_footer {	
+		
+		margin-right: 20%;
+		margin-top: 2%;
+	}
+
+
+@media (max-width: 640px) {
+	
+}
 
