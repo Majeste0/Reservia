@@ -13,6 +13,10 @@
 		margin-top: 40px;
 		margin-bottom: 0px;
 	}
+	h5 {
+		margin-top: 15px;
+		margin-bottom: 0px;
+	}
 
 	.sous_h1 {
 		margin-top: 10px;
@@ -182,7 +186,8 @@
 		margin-left: 15px;
 		line-height: 0.5 !important;
 	}
-	.titre_image {
+
+	h5 {
 		font-size: 1em;
 	}
 
@@ -218,7 +223,6 @@
 		align-items: center;
 		margin-top: 16px;
 		border-radius: 20px;
-
 	}
 
 	.populaire1, .populaire2, .populaire3 {
@@ -227,6 +231,8 @@
 		box-shadow: 0px 2px 8px 0px;
 		height: 30%;
 		width: 88%;
+		display: flex;
+		flex-direction: row;
 	}
 
 	.img_populaires {
@@ -247,10 +253,20 @@
 	}
 
 	.texte_populaire { 
-		margin-left: 10px;
-		z-index: 1000;
-		
+		display: flex;
+		flex-direction: column;
+		margin-left: 5%;
+		height: 90%;
+		justify-content: space-around;
+		width: 50%;
 	}
+
+	.populaire_star {
+	margin-top: 50px;
+
+	}
+
+
 
 	.afficher_plus {
 		margin-top: -50px;
@@ -267,7 +283,7 @@
 	.fa-star {
 		color: #0065FC;
 	}
-	.fa-star:nth-child(5n-1) {
+	.center .fa-star:nth-child(5n-1) {
 		margin-left: 15px;
 	}
 
@@ -305,6 +321,7 @@
 		flex-wrap: wrap;
 		max-height: 544px;
 		margin-left: 2%;
+		border: solid red;
 	}
 
 	.img_activites1, .img_activites2, .img_activites3, .img_activites4, .img_activites5, .img_activites6 {
@@ -433,16 +450,24 @@
 		.aside {
 			width: 100%;
 		}
-
+		.contenant {
+			height: 1650px;
+		}
 		.center {
 			width: 100%;
-			height: 1600px;
+			height: 1750px;
+			border: solid red;
 		}
 
 		.cannebiere1, .cannebiere2, .cannebiere3, .cannebiere4, .cannebiere5, .cannebiere6 {
 			width: 100%;
+			height: 15%;
 		}
-
+		.afficher_plus {
+			margin-bottom: 0px;
+			margin-top: -20px;
+			
+		}
 
 		.titre_article {
 			margin-left: 20px;
