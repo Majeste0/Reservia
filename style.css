@@ -342,7 +342,6 @@
 		flex-wrap: wrap;
 		max-height: 544px;
 		margin-left: 2%;
-		border: solid red;
 	}
 
 	.img_activites1, .img_activites2, .img_activites3, .img_activites4, .img_activites5, .img_activites6 {
@@ -379,10 +378,10 @@
 	.activites2 {	
 		display: flex;
 		flex-flow: column wrap;
-		margin-bottom: 82px;
+		margin-bottom: 60px;
 	}
 	.activites5 {
-		margin-bottom: 60px;
+		margin-bottom: 80px;
 	}
 	.activites3{
 
@@ -426,6 +425,9 @@
 
 
 	@media screen and (max-width: 640px) {
+		body {
+			margin-left: 5%;
+		}
 		.top_mobile {
 			display: flex;
 			justify-content: space-between;
@@ -443,6 +445,8 @@
 		.menu1, .menu2 {
 			border-bottom: 2px solid transparent;
 			border-top: 0px;
+			padding-left: 20%;
+			padding-right: 20%;
 		}
 		.menu3 {
 			margin-right: 2%;
@@ -660,7 +664,14 @@
 		}
 
 
+		}
+		@media screen and (min-width: 1024px) and (max-width: 1306px) {
+			.titre_activites {
+				font-size: 0.9em;
+			}
 
+			.img_activites4 {
+				height: 420px;
+			}
 
-
-	}
+}
