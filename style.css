@@ -425,15 +425,19 @@
 
 
 	@media screen and (max-width: 640px) {
-		body {
-			margin-left: 5%;
+		body,html {
+			width: 100%;
+			margin: 0px;
+			margin-left: 2%;
 		}
+
+
 		.top_mobile {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 			padding: 20px;
-			width: 100%;
+			width: calc(100% - 40px);
 		}
 
 		#menu {
@@ -610,7 +614,6 @@
 
 		.center {
 			height: 900px;
-			width: ;
 		}
 		.aside {
 			height: 900px;
@@ -640,7 +643,6 @@
 		.bloc_activites {
 			flex-direction: row;
 			justify-content: space-around;
-			font-weight: 0.5em; 
 
 		}
 
@@ -672,6 +674,10 @@
 
 			.img_activites4 {
 				height: 420px;
+			}
+
+			.titre_image {
+				font-size: 0.8em;
 			}
 
 }
