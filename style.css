@@ -428,7 +428,6 @@
 		body,html {
 			width: 100%;
 			margin: 0px;
-			margin-left: 2%;
 		}
 
 
@@ -447,10 +446,9 @@
 			margin-top: 0px;	
 		}
 		.menu1, .menu2 {
-			border-bottom: 2px solid transparent;
+			border-bottom: 2px solid lightgrey;
 			border-top: 0px;
-			padding-left: 20%;
-			padding-right: 20%;
+
 		}
 		.menu3 {
 			margin-right: 2%;
@@ -567,6 +565,8 @@
 
 		.search {
 			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 	}
